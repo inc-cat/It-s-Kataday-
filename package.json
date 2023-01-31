@@ -1,0 +1,22 @@
+{
+  "name": "kataday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inc-cat/Kataday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inc-cat/Kataday/issues"
+  },
+  "homepage": "https://github.com/inc-cat/Kataday#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
