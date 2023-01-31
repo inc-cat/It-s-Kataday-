@@ -2,7 +2,7 @@ from _001_toggle_doors import toggle_doors
 
 def test_doors():
     test_100 = toggle_doors(100)
-    assert test_100 == [1, 4, 9, 16, 25, 36, 49, 64, 81]
+    assert test_100 == [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
     test_496 = toggle_doors(496)
     assert test_496 == [
