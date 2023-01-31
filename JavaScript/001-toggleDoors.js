@@ -12,16 +12,9 @@ const toggleDoors = (n) => {
 
 
     for (index = 2; index <= n; index++) {
-        let initial = Array(n + 1).fill(0).map((_, i) => i * index)
-        initial.shift()
-        let shiftDown = initial.map(function (index) {
-            return index - 1
-        }).filter(function (int) {
-            return int <= n
-        })
+        let initial = Array(Math.floor(n / index)).fill(0).map((_, i) => (i + 1) * index - 1)
 
-
-        for (doorChange of shiftDown) {
+        for (doorChange of initial) {
             doors[doorChange]++
         }
     }
@@ -31,7 +24,5 @@ const toggleDoors = (n) => {
         }
     }).filter(Boolean)
 }
-
-console.log(toggleDoors(336))
 
 module.exports = toggleDoors;
