@@ -1,4 +1,4 @@
-const isCoPrime = require("./isCoPrime.js");
+const isCoPrime = require("./002-isCoPrime.js");
 
 describe("Are these 2 Numbers Co-Prime?", () => {
     test("Returns false if the 2 numbers are the same", () => {
