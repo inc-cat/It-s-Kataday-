@@ -1,6 +1,5 @@
 import copy
 
-
 def update_inventory(items_1, items_2):
     items_clear = copy.deepcopy(items_1)
     items_only = [i[1] for i in items_clear]
@@ -14,8 +13,9 @@ def update_inventory(items_1, items_2):
                 push_input = int(current_item[0])
             else:
                 push_input = float(current_item[0])
-            items_clear.append([push_input, str(current_item[1])])
+            items_clear.append([push_input p, str(current_item[1])])
 
     items_clear.sort(key=lambda x: x[1])
 
     return items_clear
+
