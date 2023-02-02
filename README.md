@@ -50,7 +50,18 @@ For example, given a number, 10, we want our function to return 3. This is becau
 If the given number is a Fibonacci number, return 0; \
 [![anon]][anon-url]
 
-## 004: Difference to Next Fibonacci Number
+## 004: Update Inventory
 
 Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item. \
-[![freecodecamp]][freecodecamp-url]
+[![freecodecamp]][freecodecamp2-url]
+
+[freecodecamp2-url]: https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/inventory-update
+
+## 005: Reverse Capitalisation
+
+Create a function that takes a string and reverses each letter into its upper or lower case counterpart.
+
+E.g. \
+"Hello WORLD" => "hELLO world".
+<br />
+[![anon]][anon-url]
