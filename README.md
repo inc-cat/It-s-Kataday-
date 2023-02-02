@@ -62,6 +62,20 @@ Compare and update the inventory stored in a 2D array against a second 2D array 
 Create a function that takes a string and reverses each letter into its upper or lower case counterpart.
 
 E.g. \
-"Hello WORLD" => "hELLO world".
-<br />
+`Hello WORLD` becomes `hELLO world`. \
+[![anon]][anon-url]
+
+## 006: Decrypt the Message
+
+In this challenge, a secret message has been encrypted by shifting the letters forward or back in the alphabet to different locations.
+
+All the letters experience the same shift, for example if the shift is `+4` then `a` becomes `e`, `b` becomes `f`, `c` becomes `g`, etc...
+
+Any letters at the end, such as z, will continue from the start of the alphabet: `w` becomes `a`, `x` becomes `b`, `y`, becomes `c`, `z` becomes `d`.
+
+If the shift happens in the opposite direction, the start of the alphabet will shift to the end of the alphabet.
+
+### Task:
+
+Given a jumbled string and a number representing the total shift, determine what the original message was before the encryption happened. \
 [![anon]][anon-url]
