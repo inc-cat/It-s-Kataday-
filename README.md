@@ -99,4 +99,5 @@ If you do have even one function that mutates data, unwittingly, your entire cod
 
 ### Task:
 
-Create a function that prevents mutation for nested arrays and objects.
+Create a function that prevents mutation for nested arrays and objects. \
+[![anon]][anon-url]
