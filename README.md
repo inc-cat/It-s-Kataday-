@@ -101,3 +101,16 @@ If you do have even one function that mutates data, unwittingly, your entire cod
 
 Create a function that prevents mutation for nested arrays and objects. \
 [![anon]][anon-url]
+
+## 009: Object Filter
+
+Create a function objFilter, that takes an object and a predicate and returns only the key-value pairs in a new object that pass the predicate test.
+
+e.g.
+
+`const obj = {1: 1, 2: 2, 3: 3, 4: 4}`
+
+`const divisibleBy2 = objFilter(obj, function (value) {
+        return value % 2 === 0;
+    })` becomes `{2: 2, 4: 4};` \
+ [![anon]][anon-url]
