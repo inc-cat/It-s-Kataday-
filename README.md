@@ -88,5 +88,15 @@ However, if you try to do this with objects and array, it won't work because the
 
 ### Task:
 
-Create a function that allows us to compare 2 objects and will determine if the contents are an exact match
+Create a function that allows us to compare 2 objects and will determine if the contents are an exact match \
 [![anon]][anon-url]
+
+## 008: Prevent Mutations for nested Arrays and Objects
+
+In the Functional Programming, avoiding mutation is a critically important task.
+
+If you do have even one function that mutates data, unwittingly, your entire code base is susceptible to a near impossible bug to resolve.
+
+### Task:
+
+Create a function that prevents mutation for nested arrays and objects.
