@@ -29,16 +29,4 @@ def count_data(obj):
 
     return amounts
 
-print(count_data({
-            1: 1,
-            2: [1, 2, 3, { 1: True, 2: count_data, 3: [1, 2, 3] }],
-            3: "hi",
-            4: { 1: True, 2: False, 3: ["string", "is", "not", { 1: "here" }] },
-            5: count_data,
-            6: [
-                {
-                    1: [[[3, 4, 5, "hi", "northcoders", ["Edd!"]]]],
-                    2: "something here"
-                },
-            ],
-        }))
+
