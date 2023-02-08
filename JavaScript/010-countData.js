@@ -91,18 +91,3 @@ function countData(object) {
 }
 
 module.exports = countData;
-
-console.log(
-    countData({
-        1: 1,
-        2: true,
-        3: "no",
-        4: 4,
-        5: function () {},
-        6: {},
-        7: [],
-        8: {},
-        9: [],
-        10: "ludwig",
-    })
-);
