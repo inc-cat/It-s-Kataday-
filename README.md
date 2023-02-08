@@ -127,5 +127,5 @@ We want to make sure it works for nested objects, too!
 
 Build a function that receives an object and returns an object sharing the quantity of data types inside of it. It must work for nested objects.
 
-e.g. `countData({1:[2,3,4]})` will output `{array: 1, number: 3}` \
+e.g. `countData({1:[2,3,4]})` will output `{array: 1, number: 3, object: 1}` for JavaScript and `{list: 1, dict: 1 int: 3}` for Python. \
  [![anon]][anon-url]
