@@ -138,12 +138,13 @@ A stack is a way of storing data. It is only open at one end and can only have i
 
 Your stack will need:
 
--   A push() method
+-   A push() method (append for python)
 -   A pop() method
 -   An isEmpty() method
 -   An isFull() method
 -   A peek() method
 -   A clear() method
 -   An autoFill() method
+-   A show() method
 
 [![anon]][anon-url]
