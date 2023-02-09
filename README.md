@@ -138,12 +138,12 @@ A stack is a way of storing data. It is only open at one end and can only have i
 
 Your stack will need:
 
--   A push() method,
--   A pop() method,
--   An isEmpty() method,
--   An isFull() method,
--   A peek() method,
--   A clear() method,
+-   A push() method
+-   A pop() method
+-   An isEmpty() method
+-   An isFull() method
+-   A peek() method
+-   A clear() method
 -   An autoFill() method
 
 [![anon]][anon-url]
