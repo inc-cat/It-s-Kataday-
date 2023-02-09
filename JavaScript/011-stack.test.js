@@ -102,4 +102,15 @@ describe("Stack", () => {
         stack2.autoFill(2);
         expect(stack2.storage).toEqual([1, 1, 1, 1, 1]);
     });
+
+    test("Stack has a show function method that returns a full object list of all elements in a stack", () => {
+        const stack = new Stack();
+        const showEmpty = stack.show();
+        expect(showEmpty).toEqual({});
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        const showResult = stack.show();
+        expect(showResult).toEqual({ 1: 1, 2: 2, 3: 3 });
+    });
 });
