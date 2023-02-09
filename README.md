@@ -129,3 +129,21 @@ Build a function that receives an object and returns an object sharing the quant
 
 e.g. `countData({1:[2,3,4]})` will output `{array: 1, number: 3, object: 1}` for JavaScript and `{list: 1, dict: 1 int: 3}` for Python. \
  [![anon]][anon-url]
+
+## 011: Create a Stack Class
+
+Create a Stack class.
+
+A stack is a way of storing data. It is only open at one end and can only have items added or removed, one at a time, from that end. Like stacking bowls on top of each other.
+
+Your stack will need:
+
+-   A push() method,
+-   A pop() method,
+-   An isEmpty() method,
+-   An isFull() method,
+-   A peek() method,
+-   A clear() method,
+-   An autoFill() method
+
+[![anon]][anon-url]
