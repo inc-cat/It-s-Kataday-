@@ -148,3 +148,23 @@ Your stack will need:
 -   A show() method
 
 [![anon]][anon-url]
+
+## 012: Create some Shapes Classes
+
+Create a Shapes super class that will be the parent class to a Cube and Sphere class.
+
+The Shapes class is going to need the following:
+
+-   An abstract Constructor that takes a single length/radius (m) and a mass (kg),
+-   An abstract Volume method (getVolume),
+-   An abstract Surface Area method (getSurfaceArea),
+-   An abstract Density method (getDensity),
+
+The Cube and Sphere classes are going to need to define these things further:
+
+-   A Constructor,
+-   A Volume method,
+-   A Surface Area method,
+-   A Density method
+
+[![anon]][anon-url]
