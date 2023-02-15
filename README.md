@@ -145,7 +145,7 @@ Your stack will need:
 -   A peek() method
 -   A clear() method
 -   An autoFill() method
--   A show() method
+-   A show() method`
 
 [![anon]][anon-url]
 
@@ -162,9 +162,26 @@ The Shapes class is going to need the following:
 
 The Cube and Sphere classes are going to need to define these things further:
 
--   A Constructor,
--   A Volume method,
--   A Surface Area method,
+-   A Constructor
+-   A Volume method
+-   A Surface Area method
 -   A Density method
+
+[![anon]][anon-url]
+
+# 013: Fix the Number Calculator Errors
+
+Create a class that calculates numbers. This woukd be given a group of numbers and then the functions within this calculator will apply its operations when asked.
+
+## Task:
+
+-   The constructor
+    this creates a new array from any collection of numbers entered into the constructor
+-   The generate() method
+    this adds a new number into the object's array by summing all the numbers together, dividing by the last number and then raising it to the nearest integer
+-   The getMidpoint() method
+    this returns the midpoint of the object's array
+-   The getUniqueFactors() method
+    this gives all the unique factors (factors that only appear once for all the numbers) in the object's array
 
 [![anon]][anon-url]
