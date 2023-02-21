@@ -43,6 +43,7 @@ class Sphere(Shape):
     def get_density(self):
         return self.kg / self.get_volume()
 
-b = Cube(10,6)
+
+b = Cube(10, 6)
 
 print(round(b.get_density(), 2))

@@ -6,7 +6,7 @@ class NumberCalculator:
     def __init__(self, *args):
         self.numbers = list(args)
         if len(self.numbers) == 0:
-            raise Exception('Nothing numbers added!')
+            raise Exception("Nothing numbers added!")
 
     def generate(self):
         added_number = math.ceil(
@@ -38,6 +38,7 @@ class NumberCalculator:
                 final_list.append(ints)
 
         return final_list
+
 
 numbers = NumberCalculator(9, 4, 1)
 numbers.generate()

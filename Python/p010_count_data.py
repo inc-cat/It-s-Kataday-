@@ -28,5 +28,3 @@ def count_data(obj):
                     amounts[cycle] += 1
 
     return amounts
-
-

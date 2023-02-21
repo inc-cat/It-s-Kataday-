@@ -25,6 +25,7 @@ def coprime_true():
     test_9_11_273 = is_coprime(9, 11, 273)
     assert test_9_11_273 == True
 
+
 def coprimie_false():
     test_10000000_100 = is_coprime(10000000, 100)
     assert test_10000000_100 == False
