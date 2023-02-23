@@ -54,4 +54,3 @@ class NodeTestCase(TestCase):
 
         assert node.locate(190) == "larger.larger.larger.larger.larger.larger.larger"
         assert node.locate(3) == "smaller.larger"
-
