@@ -259,7 +259,7 @@ X ≤ Y.
 [codility-url]: https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
 [codility]: https://img.shields.io/badge/Source-codility-skyblue?style=for-the-badge
 
-## 015: Frog Jump
+## 016: Add the numbers
 
 Add all the numbers from 0 to a specific number n (n > 0) within a specific time limit!
 
