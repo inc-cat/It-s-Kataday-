@@ -264,3 +264,10 @@ X ≤ Y.
 Add all the numbers from 0 to a specific number n (n > 0) within a specific time limit!
 
 [![anon]][anon-url]
+
+## 017 Calculate the Average
+
+Given an array of arrays of numbers, calculate the average of all the numbers within an allowed time.
+Decimals should be limited to 2 decimal places.
+
+e.g. `getAverage([[1], [3]])` becomes `2`
